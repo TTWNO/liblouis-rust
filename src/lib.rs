@@ -112,7 +112,7 @@ impl Louis {
     /// # let louis = Louis::new().unwrap();
     /// let txt = "This is another way to make dots.";
     /// let dots = louis.translate_simple("unicode.dis,en_US.tbl", txt, false, 0);
-    /// assert_eq!(dots, "⠠⠹ ⠊⠎ ⠁⠝⠕⠮⠗ ⠺⠁⠽ ⠖⠍⠁⠅⠑ ⠙⠕⠞⠎⠲");
+    /// assert_eq!(dots, "⠠⠹⠀⠊⠎⠀⠁⠝⠕⠮⠗⠀⠺⠁⠽⠀⠖⠍⠁⠅⠑⠀⠙⠕⠞⠎⠲");
     /// ```
     ///
     pub fn translate_simple(
