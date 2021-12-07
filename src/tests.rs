@@ -27,7 +27,7 @@ fn translate_simple_de() {
     let sentence = "Dies ist ein kurzer Satz.";
     let louis = API.lock().unwrap();
     assert_eq!(
-        louis.translate_simple("de.tbl", sentence, false, 0),
+        louis.translate_simple("de-g2.ctb", sentence, false, 0),
         "d0s } 6 kz7 sz."
     );
 }
